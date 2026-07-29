@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0eddd3b28637a4d9eb02fc6a13e6de, type: 3}
+  m_Name: WeaponDef_SStaff
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  weaponId: speedstaff
+  displayName: "\u041F\u043E\u0441\u043E\u0445 \u0421\u043A\u043E\u0440\u043E\u0441\u0442\u0438"
+  icon: {fileID: 21300000, guid: a5bfe76be0cbe8049b3dc97a1a872278, type: 3}
+  prefab: {fileID: 2501349204501271346, guid: ab90559299427d1449bd5134911a25a3, type: 3}
+  damageBonus:
+    hasValue: 1
+    value: 10
+  attackSpeedBonus:
+    hasValue: 1
+    value: 5
+  projectileCountBonus:
+    hasValue: 1
+    value: 1
+  piercingBonus:
+    hasValue: 1
+    value: 1
+  radiusBonus:
+    hasValue: 0
+    value: 0
+  tickRateBonus:
+    hasValue: 0
+    value: 0
+  angleBonus:
+    hasValue: 0
+    value: 0
+  critChanceBonus:
+    hasValue: 1
+    value: 0.15
+  critMultiplierBonus:
+    hasValue: 1
+    value: 0.1
+  projectileSpeedBonus:
+    hasValue: 0
+    value: 0
+  durationBonus:
+    hasValue: 0
+    value: 0
+  cost: 1
+  FlagMask: 1

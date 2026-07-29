@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0eddd3b28637a4d9eb02fc6a13e6de, type: 3}
+  m_Name: WeaponDef_Aspis
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  weaponId: aspis
+  displayName: "\u0410\u0441\u043F\u0438\u0441"
+  icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  prefab: {fileID: 240159616862417638, guid: 9a183c833ad23c842847cb59781554b5, type: 3}
+  damageBonus:
+    hasValue: 0
+    value: 0
+  attackSpeedBonus:
+    hasValue: 1
+    value: 5
+  projectileCountBonus:
+    hasValue: 1
+    value: 1
+  piercingBonus:
+    hasValue: 0
+    value: 0
+  radiusBonus:
+    hasValue: 0
+    value: 0
+  tickRateBonus:
+    hasValue: 0
+    value: 0
+  angleBonus:
+    hasValue: 0
+    value: 0
+  critChanceBonus:
+    hasValue: 1
+    value: 0.1
+  critMultiplierBonus:
+    hasValue: 1
+    value: 0.15
+  projectileSpeedBonus:
+    hasValue: 0
+    value: 0
+  durationBonus:
+    hasValue: 0
+    value: 0
+  cost: 1
+  FlagMask: 1

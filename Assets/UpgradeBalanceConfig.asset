@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad591c0c4742989438775cc6bd536973, type: 3}
+  m_Name: UpgradeBalanceConfig
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeBalanceConfig
+  commonWeight: 60
+  rareWeight: 25
+  mythicWeight: 12
+  legendaryWeight: 3
+  statRanges:
+  - statType: 0
+    unit: '%'
+    common:
+      min: 3
+      max: 6
+    rare:
+      min: 7
+      max: 12
+    mythic:
+      min: 13
+      max: 18
+    legendary:
+      min: 19
+      max: 23
+  - statType: 1
+    unit: '%'
+    common:
+      min: 5
+      max: 10
+    rare:
+      min: 11
+      max: 18
+    mythic:
+      min: 19
+      max: 28
+    legendary:
+      min: 30
+      max: 40
+  - statType: 2
+    unit: '%'
+    common:
+      min: 6
+      max: 12
+    rare:
+      min: 13
+      max: 22
+    mythic:
+      min: 23
+      max: 35
+    legendary:
+      min: 36
+      max: 50
+  - statType: 3
+    unit: "\u0448\u0442"
+    common:
+      min: 0.5
+      max: 1.25
+    rare:
+      min: 1.3
+      max: 2.25
+    mythic:
+      min: 2.3
+      max: 3.25
+    legendary:
+      min: 3.3
+      max: 4.25
+  - statType: 5
+    unit: '%'
+    common:
+      min: 8
+      max: 14
+    rare:
+      min: 15
+      max: 24
+    mythic:
+      min: 25
+      max: 36
+    legendary:
+      min: 38
+      max: 50
+  - statType: 6
+    unit: '%'
+    common:
+      min: 3
+      max: 6
+    rare:
+      min: 7
+      max: 12
+    mythic:
+      min: 13
+      max: 20
+    legendary:
+      min: 21
+      max: 28
+  - statType: 7
+    unit: x
+    common:
+      min: 0.05
+      max: 0.1
+    rare:
+      min: 0.1
+      max: 0.15
+    mythic:
+      min: 0.2
+      max: 0.25
+    legendary:
+      min: 0.3
+      max: 0.4
+  - statType: 8
+    unit: '%'
+    common:
+      min: 6
+      max: 12
+    rare:
+      min: 13
+      max: 22
+    mythic:
+      min: 23
+      max: 35
+    legendary:
+      min: 36
+      max: 50
+  - statType: 9
+    unit: '%'
+    common:
+      min: 6
+      max: 12
+    rare:
+      min: 13
+      max: 22
+    mythic:
+      min: 23
+      max: 35
+    legendary:
+      min: 36
+      max: 50
+  - statType: 10
+    unit: "\u0448\u0442"
+    common:
+      min: 1
+      max: 1
+    rare:
+      min: 1
+      max: 2
+    mythic:
+      min: 2
+      max: 3
+    legendary:
+      min: 3
+      max: 5
+  - statType: 11
+    unit: '%'
+    common:
+      min: 8
+      max: 15
+    rare:
+      min: 16
+      max: 28
+    mythic:
+      min: 29
+      max: 44
+    legendary:
+      min: 45
+      max: 60
+  - statType: 12
+    unit: "\u0448\u0442"
+    common:
+      min: 0.5
+      max: 1
+    rare:
+      min: 1.25
+      max: 2
+    mythic:
+      min: 2.25
+      max: 3
+    legendary:
+      min: 3.25
+      max: 4
+  weaponOverrides:
+  - weaponId: aura
+    displayName: "\u0410\u0443\u0440\u0430"
+    statOverrides:
+    - statType: 5
+      disabled: 1
+      overrideRanges: 0
+      common:
+        min: 3
+        max: 6
+      rare:
+        min: 7
+        max: 12
+      mythic:
+        min: 13
+        max: 18
+      legendary:
+        min: 19
+        max: 23
+    - statType: 0
+      disabled: 0
+      overrideRanges: 1
+      common:
+        min: 7
+        max: 15
+      rare:
+        min: 13
+        max: 19
+      mythic:
+        min: 20
+        max: 26
+      legendary:
+        min: 27
+        max: 40
+  totemCardChance: 0.5
+  totemRanges:
+  - bonusType: 0
+    common:
+      min: 2
+      max: 5
+    rare:
+      min: 6
+      max: 10
+    mythic:
+      min: 11
+      max: 15
+    legendary:
+      min: 16
+      max: 25
+  - bonusType: 1
+    common:
+      min: 2
+      max: 5
+    rare:
+      min: 6
+      max: 10
+    mythic:
+      min: 11
+      max: 15
+    legendary:
+      min: 16
+      max: 25
+  - bonusType: 2
+    common:
+      min: 3
+      max: 6
+    rare:
+      min: 7
+      max: 12
+    mythic:
+      min: 13
+      max: 18
+    legendary:
+      min: 19
+      max: 28
+  - bonusType: 3
+    common:
+      min: 2
+      max: 4
+    rare:
+      min: 5
+      max: 8
+    mythic:
+      min: 9
+      max: 12
+    legendary:
+      min: 13
+      max: 18
+  - bonusType: 4
+    common:
+      min: 2
+      max: 4
+    rare:
+      min: 5
+      max: 8
+    mythic:
+      min: 9
+      max: 12
+    legendary:
+      min: 13
+      max: 18
+  - bonusType: 5
+    common:
+      min: 5
+      max: 10
+    rare:
+      min: 11
+      max: 18
+    mythic:
+      min: 19
+      max: 28
+    legendary:
+      min: 29
+      max: 40
+  - bonusType: 6
+    common:
+      min: 2
+      max: 4
+    rare:
+      min: 5
+      max: 8
+    mythic:
+      min: 9
+      max: 14
+    legendary:
+      min: 15
+      max: 22
+  - bonusType: 7
+    common:
+      min: 1
+      max: 3
+    rare:
+      min: 4
+      max: 6
+    mythic:
+      min: 7
+      max: 9
+    legendary:
+      min: 10
+      max: 14

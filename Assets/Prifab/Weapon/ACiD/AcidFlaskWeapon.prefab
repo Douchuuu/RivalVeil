@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4879968394059367678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8300394509627894469}
+  - component: {fileID: 5458786668868370751}
+  m_Layer: 0
+  m_Name: AcidFlaskWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8300394509627894469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4879968394059367678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.12792, y: -0, z: -27.23993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5458786668868370751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4879968394059367678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1865d1b127fd5346a6f567a755c1340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AcidFlaskWeapon
+  baseDamage: 14
+  baseAttackCooldown: 4
+  basePuddleRadius: 2.5
+  basePuddleDuration: 4
+  baseProjectileCount: 1
+  baseFlightSpeed: 12
+  baseBurstDelay: 1
+  flaskPrefab: {fileID: 6315357789473080041, guid: 5a0e83e56107e994c997c66c2a854a62, type: 3}
+  puddlePrefab: {fileID: 1555374647838826429, guid: 1cf1c80ea05ac18439efc344eb447368, type: 3}

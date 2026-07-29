@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 333f3eb134e5d474ca3c9dd512e3566f, type: 3}
+  m_Name: TotemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::TotemDatabase
+  totems:
+  - {fileID: 11400000, guid: 610bc0ae108633644823d61139ed7c7c, type: 2}
+  - {fileID: 11400000, guid: aef9eccb4f023a841bdd0b951f99581d, type: 2}
+  - {fileID: 11400000, guid: 84c7550b382a235419b2d075b0180c66, type: 2}
+  - {fileID: 11400000, guid: 1604ed6a3ce33b24ea81e0e105e34dcf, type: 2}
+  - {fileID: 11400000, guid: 7e70513e6db0ebf4ea8781321ac38277, type: 2}
