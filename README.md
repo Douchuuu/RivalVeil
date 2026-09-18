@@ -24,6 +24,10 @@
 `GameClient/RivalVeil.exe`
 P.S. Для онлайн режима требуется сервер, про настройку сервера читать в README_SETUP.md
 ---
+Автор
+Vlad (lehify) — Douchuuu
+
+Telegram: @lehify 
 
 ###  Развертывание для разработки
 
